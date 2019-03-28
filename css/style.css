@@ -1,0 +1,27 @@
+.maintext{
+  margin-left: 5%;
+  width: 90%;
+  margin-right:5%;
+}
+
+.research_title{
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+.link{
+	color:#337ab7;
+}
+
+.img_container{
+	margin: 0px auto;
+	text-align:center;
+}
+
+.research_sub_title{
+	font-size: 100%;
+}
+
+#contact_container{
+	height: 960px;
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Po-shen Lee</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.6/angular.js"></script>
+    <script src="js/App.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/clean-blog.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+<div ng-app="myApp" ng-controller="myCtrl">
+<div ng-include="'nav.html'"></div>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/unlock.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>Research Projects in UW</h1>
+                        <h2 class="subheading">2011 - 2017</h2>
+                        <!--<span class="meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</span>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Post Content -->
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 maintext">
+
+                    <h2>VizioMetrics: Mining the Scientific Literature</h2>
+
+
+                    <p>The visual cortex is the highest-bandwidth information channel into the human brain and humans are known to better retain information presented visually.  The figures in the scientific literature therefore would appear to play a critical role in scientific communication.  The discovery of the structure of DNA was largely a visual argument based on the images produced by X-ray crystallography; indeed, Gibbons argues that the act of producing the visualization of the structure represents the discovery itself.  The first extra-solar optical images of planets amplified the nascent subfield of astronomy focused on planet-hunting.  Medical imagery of biological processes at scales below that which can be detected using conventional optical methods are providing new insight into brain function. In all fields, key experimental results are summarized in plots, complex scientific concepts are illustrated schematically in diagrams, and photographic evidence are used to provide insight at scales and in locations not available to the human eye. The quantification of science and the rise of big data has increased the need for visual representations of the data, models, and results.</p>
+
+                    <p>In the 1950s, researchers like Eugene Garfield and De Solla Price recognized the importance of citations in organizing and searching the scientific literature, but the process for making this information useful at scale was painstaking. We see an analogy with the current role of the visual literature. There is clear value in extracting and analyzing figures to understand its role in scientific communication and impact, just as there is clear value in analyzing the citation network in isolation. The citation network tells us how ideas are related; visual representations tell us how ideas are communicated. Figures from related groups, authors, and fields share a `DNA' that can reveal how information is conveyed.</p>
+
+                    <p>We adopt the term <strong>viziometrics</strong> to describe this line of research to convey the shared goals with bibliometrics and scientometrics. As with bibliometrics, viziometrics uses citations to measure impact, but focuses on relating impact to the patterns of figure use. We analyze theses patterns within the papers (specifically, the distribution of various figure types) in order to understand how they may be used to more effectively communicate ideas. We developed a figure processing pipeline that automatically classifies figures into equations, diagrams, plots, photos, and tables. By integrating the figure-type labels and article metadata, we analyzed the patterns across journals, over time, and relationships to impact. Our key result is that high-impact papers tend to have more diagrams per page and a higher proportion of diagrams relative to other figure types. A possible interpretation is that clarity is critical for impact: illustrating an original idea may be more influential than quantitative experimental results. We also described a new application to search and browse scientific figures, potentially enabling new kinds of search tasks. The VizioMetrics.org systems affords search by keyword as well as figure type, and shows results in a figure-centric layout. We believe more interesting and useful applications can be inspired by the concept of viziometrics. We also encourage people to use our publicly available corpus and software to explore this area of research and create a new community of interest.</p>
+
+
+                    <h3 class="research_title">Press and Recognition:</h3>
+
+                        <ul>
+                            <li>
+                                June 2016: The <strong>Economist</strong> has written a <a class="link" href="http://www.economist.com/news/science-and-technology/21700617-scientific-study-importance-diagrams-science-graphic-details/" target="_blank">nice print piece</a> on our arXiv paper.
+                            </li>
+                            <li>
+                                June 2016: Top 5 tools of the week voted on <strong>LabWorm</strong>, a discovery platform that exposes top research tools with the goal of promoting a more open, collaborative and cutting edge science.
+                            </li>
+                            <li>
+                                June 2016: <strong>MIT Technology Review</strong> wrote a nice piece on our project: <a class="link" href="https://www.technologyreview.com/s/601589/the-first-visual-search-engine-for-scientific-diagrams/" target="_blank">The First Visual Search Engine for Scientific Diagrams</a>
+                            </li>
+                            <li>
+                                Top 5% of all research outputs with social media attention scored by <a class="link" href="https://www.altmetric.com/details/7564673/news" target="_blank">Almetric</a>. 3 news outlets and 155 tweeters.
+                            </li>
+                        </ul>
+
+
+                   <h3 class="research_title">Figure Use Correlates with Article Influence</h3>
+
+                    <p>
+                    Motivated by the increasing need to communicate results across disciplines and with the general public, we study the relationship between the use of figures in the biomedical literature and scientific impact. We hypothesize that an increased use of explanatory figures is associated with increased citations, suggesting that encoding results visually improves communicability. To test this hypothesis, we extract the figures from 200k papers in PubMed and train a model to classify the figures as diagrams, visualizations, photographs, or tables.
+                    </p>
+                    <div class="img_container">
+                        <img src="img/research/trend.png" alt="" width = "800px">
+                    </div>
+                    <p>The circle makers denote the the results is statistically significant, otherwise the data points are shown by the cross makers. The right shaded area from 2009 to 2014 is considered less credibility because the citation network has well constructed yet. Consistent positive correlation signals are observed from diagram and plot. Increasing positive correlation signals are observed from table. It may forecast a new age of data-centric methodologies for researches in life science. In the other hand, negative correlations of photo density are found during 2005 to 2007, while positive correlations are found in early years with journal bias.</p>
+
+                    <div class="img_container">
+                        <img src="img/research/nb_model.png" alt="" width = "800px">
+                    </div>
+                    <p>The table shows the mean change in the accrued citations for one standardized unit of change in the independent variables: diagram density, photo density, plot density, table density, and age analyzed by a generalized linear model with a negative binomial error structure. Table density shows the highest Sd. OR when considering same-field citations; whereas it is taken over by diagram density when considering cross-field citations. It indicates the audiences from the same field may prefer articles with visualized quantitative results but the audiences with diver backgrounds may prefer the articles with visualized conceptual content.</p>        
+
+                    <h3 class="research_title">VizioMetrics.org</h3>
+                    <p>VizioMetrix is designed to be an initial suite of tools in support of viziometrics. VizioMetrics includes functionality for three groups of users: (1) academic users performing search tasks, (2) researchers who specialize in computer vision for document understanding, and (3) scientometricians interested in understanding general communication patterns across the literature.</p>
+
+                    <h3 class="research_sub_title">Figure-centric Search Engine</h3>
+                    <a href="http://viziometrics.org/search/" target="_blank">
+                        <img class="img-responsive" src="img/research/viziometrics.png" alt="">
+                    </a>
+                    <br>
+                    <h3 class="research_sub_title">Figure Annotator</h3>
+                    <a href="http://viziometrics.org/crowd_labelling_entrance/" target="_blank">
+                        <img class="img-responsive" src="img/research/annotator.png" alt="">
+                    </a>
+                    <br>
+                    <h3 class="research_sub_title">Deep Mapping of the Visual Literature</h3>
+                    <a href="http://viziometrics.org/stats/" target="_blank">
+                        <img class="img-responsive" src="img/research/deep_mapping.png" alt="">
+                    </a>
+                    <br>
+                    <h3 class="research_sub_title">Build a Tree of Life from a Phylogenetic Forest</h3>
+                    <a href="#" target="_blank">
+                        <img class="img-responsive" src="img/research/phyloparser.png" alt="">
+                    </a>
+
+
+
+                    <hr>
+                    <p class="research_title"></p>
+
+
+                 
+
+                    <h2>Hello 911: Visualizing Crimes in Seattle</h2>
+
+                    <p>The purpose of this information visualization project is to analyze the various crime, accident and offence incident data provided by the government of Seattle to do predictive analysis or preventive analysis on these incidents. Our target users are Seattle residents, Law enforcements groups and other related parties. Our goal through this visualization project would be to help determine if there is a pattern in the occurence of these incidents in terms of place, time, sunrise, sunset time, day and night length etc. We also want to provide pragmatic and intuitive suggestions to the users through our visualization.</p>
+                    <p>
+                    <a href="http://students.washington.edu/sephon/HCDE411/index.html" target="_blank">
+                        <img class="img-responsive" src="img/research/911_daynight.png" alt="">
+                    </a>
+                    </p>
+                    <hr>
+                    <p class="research_title"></p>
+                    
+                    
+
+                    <h2>CarbonShopper, Augmented Reality Application on Display Goggle with Head Camera</h2>
+                    <p>Protecting the environment is quickly becoming one of the most important topics of today’s world. Yet while reducing greenhouse gas emissions is a must, people continue to follow environmentally harmful habits for reasons such as ignorance, laziness, and the inability to see the impact they are making. CarbonShopper helps users make the most environmentally friendly choice while shopping by providing information about resource use, comparing it to similar products, and helping users keep track of their purchase history in order to improve over time.</p>
+
+                    <iframe width="500" height="270" src="https://www.youtube.com/embed/rW2QNV7VVak" frameborder="0" allowfullscreen></iframe>
+                    <iframe width="500" height="270" src="https://www.youtube.com/embed/Siw_4kUfPLc" frameborder="0" allowfullscreen></iframe>
+                    <p class="research_title"></p>
+          
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer ng-include="'footer.html'"></div>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/clean-blog.min.js"></script>
+</div>
+</body>
+
+</html>
